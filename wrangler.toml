@@ -1,0 +1,9 @@
+# wrangler.toml
+name = "doh-ech-check"
+main = "src/worker.ts"
+compatibility_date = "2025-11-12"
+workers_dev = true
+
+[vars]
+DEFAULT_TEST_DOMAIN = "linux.do"
+REQUEST_TIMEOUT_MS = 5000
